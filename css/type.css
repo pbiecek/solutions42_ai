@@ -1,0 +1,70 @@
+.typing {
+    position: relative;
+}
+
+.typing h1 {
+    position: position: absolute; top: 0; left: 0;
+    color: #36587c;
+    overflow: hidden;
+    animation: type 5s steps(11) infinite;
+}
+
+.typing2 h1 {
+    position: position: absolute; top: 0; left: 0;
+    color: #a40200;
+    overflow: hidden;
+    animation: type2 5s steps(11) infinite;
+}
+
+.typing3 h1 {
+    position: position: absolute; top: 0; left: 0;
+    color: #2d8819;
+    overflow: hidden;
+    animation: type3 5s steps(11) infinite;
+}
+
+@keyframes type {
+
+    0%,
+    33%,
+    66%,
+    100% {
+        width: 0px;
+    }
+
+    10%,
+    23% {
+        width: 394.09px;
+    }
+}
+
+@keyframes type2 {
+
+    0%,
+    33%,
+    66%,
+    100% {
+        width: 0px;
+    }
+
+    43%,
+    56% {
+        width: 394.09px;
+    }
+}
+
+@keyframes type3 {
+
+    0%,
+    33%,
+    66%,
+    100% {
+        width: 0px;
+    }
+
+    76%,
+    90% {
+        width: 394.09px;
+    }
+}
+
